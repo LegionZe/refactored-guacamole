@@ -1,0 +1,8 @@
+{
+  "name": "sr5-pdf-export",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node test/render.test.mjs"
+  }
+}

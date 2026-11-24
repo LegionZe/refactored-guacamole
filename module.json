@@ -1,0 +1,42 @@
+{
+    "id": "sr5-pdf-export",
+    "title": "SR5 Character PDF Export",
+    "description": "Export Shadowrun 5th Edition (shadowrun5e system) player characters to a PDF character sheet.",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "LegionZe"
+        }
+    ],
+    "compatibility": {
+        "minimum": "14",
+        "verified": "14.367",
+        "maximum": "14"
+    },
+    "relationships": {
+        "systems": [
+            {
+                "id": "shadowrun5e",
+                "type": "system",
+                "compatibility": {
+                    "minimum": "0.37.0"
+                }
+            }
+        ]
+    },
+    "esmodules": [
+        "scripts/main.js"
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
+    "url": "https://github.com/LegionZe/refactored-guacamole",
+    "manifest": "https://github.com/LegionZe/refactored-guacamole/releases/latest/download/module.json",
+    "download": "https://github.com/LegionZe/refactored-guacamole/releases/download/v1.0.0/module.zip",
+    "bugs": "https://github.com/LegionZe/refactored-guacamole/issues",
+    "license": "LICENSE"
+}
